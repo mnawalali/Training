@@ -4,7 +4,7 @@ require 'timeout'
 quiz_data = []
 correct_answers_count = 0
 begin
-  status = Timeout.timeout(2) do
+  Timeout.timeout(30) do
     # read file
     CSV.foreach('problems.csv', headers: false, col_sep: ',') do |file_descriptor|
       quiz_data.push(file_descriptor)
@@ -20,6 +20,7 @@ begin
     puts "Correct Answers #{correct_answers_count}"
   end
 rescue StandardError
+  puts
   puts "Total questions #{quiz_data.size}"
   puts "Correct Answers #{correct_answers_count}"
 end
