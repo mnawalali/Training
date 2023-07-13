@@ -41,7 +41,7 @@
 #     include Foo
 #   end
 
-#include
+# include
 # module Foo
 #   def module_method
 #     puts "Module Method invoked"
@@ -70,7 +70,7 @@
 # bar.extend Foo
 # bar.module_method
 
-#include
+# include
 # module Foo
 #   def self.included(class_name)
 #           puts "Foo has been included in class #{class_name}"
@@ -88,7 +88,7 @@
 
 # Bar.new.method_in_module
 
-#extend
+# extend
 # module Foo
 #   def say_hi
 #     puts "Hi!"
@@ -101,7 +101,7 @@
 # Bar.extend Foo
 # Bar.say_hi
 
-#module exercise 1
+# module exercise 1
 
 # module Foo
 #   module ClassMethods
@@ -125,7 +125,7 @@
 
 # puts Bar.guitar
 
-#module exercise 2
+# module exercise 2
 # module Foo
 #   module ClassMethods
 #     def guitar
@@ -168,5 +168,5 @@
 # obj.foo_method
 # Output: Hello from Foo
 
-#obj.bar_method
+# obj.bar_method
 # Output: undefined method `bar_method' for #<MyClass:0x0000000000000000>
