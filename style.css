@@ -30,6 +30,10 @@ justify-content: center;
   font-family: 'Inter', sans-serif;
 }
 
+.nav-form{
+display: flex;
+}
+
 .nav-links-container{
   display: flex;
   flex-direction: row;
@@ -46,8 +50,12 @@ flex-direction: row;
   margin: 0rem 0.3rem;
 }
 
-.signup-link{
-
+.nav-select{
+  background: none;
+  border: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
 }
 
 .color-white
