@@ -1,0 +1,89 @@
+.body-style {
+  margin: 0px;
+  padding: 0px;
+  
+}
+.nav-bar-container{
+display: flex;
+justify-content: center;
+}
+
+.nav-bar{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.nav-like{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-link{
+ 
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-links-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.nav-product-link{
+display: flex;
+flex-direction: row;
+}
+
+.our-product-link{
+  margin: 0rem 0.3rem;
+}
+
+.signup-link{
+
+}
+
+.color-white
+{
+  color: white;
+}
+
+.color-blue
+{
+  color: rgb(67, 126, 247);
+}
+
+.btn-primary{
+  background-color: rgb(67, 126, 247);
+ border: none;
+ color: white;
+ font-family: 'Inter', sans-serif;
+ padding: 1rem 0.9rem;
+ border-radius: 0.4rem;
+}
+
+.nav-btns{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ham-burger{
+  display: none;
+  flex-direction: row;
+}
+.ham-icon{
+  width: 1.8rem;
+}
+
+.header{
+  background-image: url(HeaderBackground.png);
+}
