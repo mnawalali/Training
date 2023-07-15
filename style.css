@@ -66,7 +66,7 @@ flex-direction: row;
 
 .color-blue
 {
-  color: rgb(67, 126, 247);
+  color: #437ef7;
 }
 
 .btn-primary{
@@ -179,7 +179,7 @@ font-weight: bold;
   text-align: center;
 }
 
-.gray-color{
+.color-gray{
   color: #5F6D7E
 }
 
@@ -202,9 +202,41 @@ font-weight: bold;
   flex-direction: column;
   width: 20rem;
   margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
 }
 
 .card-img{
   width: 2.5rem;
+  margin-bottom: 1rem;
 }
 
+
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-btn{
+  width: 1rem;
+  height: 1rem;
+}
+
+.card-header
+{
+width: 80%;
+align-items: center;
+justify-content: center;
+column-gap: 0.5rem;
+font-weight: 600;
+}
+
+.card-heading{
+  margin: 0.5rem 0;
+}
+
+.card-descr{
+  width: 80%;
+  height: 25%;
+}
