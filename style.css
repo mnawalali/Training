@@ -120,6 +120,7 @@ font-weight: bold;
 
   border-bottom-left-radius: 80% 15%;
   border-bottom-right-radius: 80% 15%;
+  margin-bottom: 4rem;
 }
 
 .header-content-container{
@@ -165,13 +166,11 @@ font-weight: bold;
   padding-right: 3rem;
 }
 
-.page-intro-container{
-  display: flex;
+.page-section-container{
   align-items: center;
-  flex-direction: column;
 }
 
-.page-intro-body{
+.page-section-body{
   width: 55%;
   display: flex;
   flex-direction: column;
@@ -218,18 +217,22 @@ font-weight: bold;
   flex-direction: row;
 }
 
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
 .card-btn{
   width: 1rem;
   height: 1rem;
 }
 
-.card-header
+.card-footer
 {
 width: 80%;
 align-items: center;
 justify-content: center;
 column-gap: 0.5rem;
-font-weight: 600;
 }
 
 .card-heading{
@@ -239,4 +242,66 @@ font-weight: 600;
 .card-descr{
   width: 80%;
   height: 25%;
+}
+
+.section-margin-btm{
+  margin-bottom: 4rem;
+}
+
+.product-col-1{
+  height: 70%;
+  width:35%;
+  gap: 1.5rem;
+}
+.product-col-2{
+  width: 40%;
+  display: flex;
+}
+
+.product-feat-descr-col{
+  width: 90%;
+}
+
+.small-col{
+  height: 80%;
+}
+
+.weight-6{
+  font-weight: 600;
+}
+
+.jst-cent{
+  justify-content: center;
+}
+
+.algn-cent{
+  align-items: center;
+}
+
+.product-feat-footer{
+gap: 1rem;
+}
+
+.product-feat-heading{
+margin: 0;
+}
+
+.test{
+  background-color: yellow;
+}
+
+.product-feat-row{
+  justify-content: space-between;
+}
+
+.feat-desc-mrgn{
+  margin: 0.4rem 0;
+}
+
+.feature-img-1{
+  
+}
+
+.feature-img-2{
+  display: none;
 }
