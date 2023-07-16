@@ -72,6 +72,23 @@ flex-direction: row;
 .color-fade{
   color:#B1CCFB;
 }
+
+.color-black{
+  background-color: #151b28;
+}
+
+.color-gray{
+  color: #5F6D7E
+}
+
+.color-gray-7{
+  color: #272D37;
+}
+
+.color-neutral{
+  color: #DAE0E6;
+}
+
 .btn-primary{
   background-color: rgb(67, 126, 247);
  border: none;
@@ -191,17 +208,7 @@ font-weight: bold;
   text-align: center;
 }
 
-.color-gray{
-  color: #5F6D7E
-}
 
-.color-gray-7{
-  color: #272D37;
-}
-
-.color-neutral{
-  color: #DAE0E6;
-}
 .card-container{
   display: flex;
   flex-direction: column;
@@ -271,6 +278,10 @@ column-gap: 0.5rem;
 .mx-1
 {
   margin: 0 1rem;
+}
+
+.mb-1{
+ margin: 0 0 1rem 0;
 }
 
 .mx-half{
@@ -355,6 +366,10 @@ margin: 0;
   gap: 1rem;
 }
 
+.gap-5{
+  gap: 5rem;
+}
+
 .logo-img{
   width: 100%; /* Use viewport width instead of 100% */
  
@@ -373,4 +388,36 @@ margin: 0;
 .card-line{
   width: 90%;
   border: 1px solid #f4f5f7;
+}
+
+.blog-col{
+  width: 40%;
+}
+
+.blog-descr-col{
+  width: 70%;
+}
+
+.blog-descr-hldr{
+  justify-content: space-between;
+}
+
+.blog-container{
+ justify-content: space-evenly;
+}
+
+.blog-img{
+  width: 100%;
+}
+
+.page-footer-1{
+  width: 80%;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.footer-link-hlder{
+  width: 15rem;
 }
