@@ -14,7 +14,7 @@ margin-bottom: 6rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 80%;
+  width: 85%;
   justify-content: space-between;
 }
 
@@ -123,7 +123,7 @@ font-weight: bold;
   width: 10%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .ham-burger{
@@ -158,6 +158,7 @@ font-weight: bold;
   flex-direction: column;
   align-items: center;
   align-items: center;
+  align-items: center;
 
   /* background-color: #0F1724; */
 }
@@ -167,8 +168,8 @@ font-weight: bold;
   flex-direction: column;
   align-items: center;
   /* background-color: yellow; */
-  /* width: 30%; */
-  max-width: 620px;
+  width: 30%;
+  /* max-width: 620px; */
   text-align: center;
   gap: 1.7rem;
 }
@@ -186,8 +187,7 @@ font-weight: bold;
 .header-btn-hldr{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 40%;
+  /* width: 40%; */
 }
 
 
@@ -420,4 +420,30 @@ margin: 0;
 
 .footer-link-hlder{
   width: 15rem;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+  .nav-btns {
+    width: 13%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .header-content{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-links-container {
+   display: none;
+  }
+  .nav-btns{
+    display: none;
+  }
+  .ham-burger{
+    display: flex;
+  }
 }
