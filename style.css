@@ -69,12 +69,25 @@ flex-direction: row;
   color: #437ef7;
 }
 
+.color-fade{
+  color:#B1CCFB;
+}
 .btn-primary{
   background-color: rgb(67, 126, 247);
  border: none;
  color: white;
  font-family: 'Inter', sans-serif;
  padding: 1rem 0.9rem;
+ border-radius: 0.4rem;
+font-weight: bold;
+}
+
+.btn-primary-5{
+  background-color: #5390f8;
+ border: none;
+ color: white;
+ font-family: 'Inter', sans-serif;
+ padding: 0.5rem 0.5rem;
  border-radius: 0.4rem;
 font-weight: bold;
 }
@@ -182,6 +195,13 @@ font-weight: bold;
   color: #5F6D7E
 }
 
+.color-gray-7{
+  color: #272D37;
+}
+
+.color-neutral{
+  color: #DAE0E6;
+}
 .card-container{
   display: flex;
   flex-direction: column;
@@ -248,9 +268,17 @@ column-gap: 0.5rem;
   margin-bottom: 4rem;
 }
 
+.mx-1
+{
+  margin: 0 1rem;
+}
+
+.mx-half{
+  margin: 0 0.5rem;
+}
 .product-col-1{
   height: 70%;
-  width:35%;
+  width:40%;
   gap: 1.5rem;
 }
 .product-col-2{
@@ -270,6 +298,13 @@ column-gap: 0.5rem;
   font-weight: 600;
 }
 
+.weight-6{
+  font-weight: 400;
+}
+
+.weight-7{
+font-weight: 700;
+}
 .jst-cent{
   justify-content: center;
 }
@@ -304,4 +339,38 @@ margin: 0;
 
 .feature-img-2{
   display: none;
+}
+
+.brand-holder{
+  width: 80%;
+  justify-content: space-between;
+}
+
+.brand-container{
+  background-color: #2b63d9;
+  padding: 4rem;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+.logo-img{
+  width: 100%; /* Use viewport width instead of 100% */
+ 
+  /* object-fit: none; */
+ 
+ 
+}
+
+.price-card{
+  width: 25rem;
+  border: 2px solid #f4f5f7; 
+  border-radius: 0.5rem;
+  padding: 2rem 2rem;
+}
+
+.card-line{
+  width: 90%;
+  border: 1px solid #f4f5f7;
 }
