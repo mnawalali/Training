@@ -423,7 +423,6 @@ margin: 0;
 }
 
 
-
 @media screen and (max-width: 1600px) {
   .nav-btns {
     width: 13%;
@@ -436,6 +435,12 @@ margin: 0;
   }
 }
 
+@media screen and (max-width: 1400px) {
+  .product-feat-container{
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .nav-links-container {
    display: none;
@@ -445,5 +450,17 @@ margin: 0;
   }
   .ham-burger{
     display: flex;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .header-content{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .header-content{
+    width: 98%;
   }
 }
